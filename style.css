@@ -1,13 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
+
 body{
+    padding: 20px;
     background-color: transparent;
     background-image: linear-gradient(180deg,#f1f1f1 0,#fff 100%)
 }
+
 .menu {
     background-color: #6ea8fe!important;
+}
+
+h1 {
+    font-size: 2.5em; /* Use em ou rem para tamanhos de fontes */
+}
+
+p {
+    font-size: 1.2em;
 }
 
 ul, li{
@@ -15,9 +27,16 @@ ul, li{
     padding: 10px;
     justify-items: right;
 }
+
 li{
    
 }
+
+.letter {
+    padding: 20px;
+    font-size: 1.1em; /* Ajustar o tamanho da fonte */
+}
+
 a{
     text-decoration: none;
     color: white;
