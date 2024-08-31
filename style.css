@@ -28,10 +28,6 @@ ul, li{
     justify-items: right;
 }
 
-li{
-   
-}
-
 .letter {
     padding: 20px;
     font-size: 1.1em; /* Ajustar o tamanho da fonte */
@@ -44,33 +40,23 @@ a{
 }
 
 a:hover{
-    
     animation: under infinite 0.8s;
-
 }
 
 @keyframes under{
-
-
-/* 
- Ignore:
-
- 
-
-
-*/
     100%{
         font-weight: bold;
         text-decoration: underline;
     }
-    
 }
+
 .container1{
     background-color: transparent;
     background-image: linear-gradient(180deg,#f1f1f1 0,#fff 100%);
     display: flex;
     flex-direction: column;
 }
+
 .group-card{
     display: flex;
     flex-direction: row;
@@ -82,7 +68,7 @@ a:hover{
     width: 425px;
     min-height: 420px;
     background-color: white;
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
@@ -90,6 +76,7 @@ display: flex;
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
     border-radius: 12px;
 }
+
 .card button{
     margin-bottom: 4%;
     background-color: #0d6efd;
@@ -104,43 +91,39 @@ display: flex;
     font-weight: 200;
     transition: background-color 0.8s ease;
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
-
 }
+
 .card button:hover{
     background-color: #6d18ef;
     cursor: pointer;
-
 }
-/* Restante do seu CSS ... */
-
-/* ... Restante do seu CSS ... */
 
 .topCard {
     margin-top: -17%;
     display: flex;
     color: white;
     background-color: #6ea8fe;
-
 }
+
 .topcard img{
     border-radius: 16px;
 }
+
 .middleCard h2{
     margin-top: 2%;
     text-align: center;
     font-size: 18pt;
     font-family: Rubik, Courier, monospace;
-
 }
+
 .middleCard p{
     margin-top: 2%;
     margin:1%;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-
-
 }
+
 .middleCard {
     display: flex;
     flex-direction: column;
@@ -148,11 +131,4 @@ display: flex;
     justify-content: center;
     justify-items: center;
     margin-top: 2%;
-
-
 }
-
-/* ... Restante do seu CSS ... */
-
-
-/* Restante do seu CSS ... */
