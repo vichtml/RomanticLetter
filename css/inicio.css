@@ -9,6 +9,8 @@ body {
     height: 100vh;
 }
 
+
+
 .letter {
     max-width: 600px;
     padding: 20px;
@@ -16,8 +18,26 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
+    padding-top: 250px;
 }
 
+@media screen and (max-width: 600px) {
+    .letter {
+        width: 95%; /* Aumentar a largura em telas menores */
+        padding: 15px; /* Reduzir o padding */
+        padding-top: 90dvh; /* Reduzir o padding-top em telas menores */
+        font-size: 0.9em; /* Reduzir ligeiramente o tamanho da fonte */
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .letter {
+        width: 95%; /* Aumentar a largura em telas menores */
+        padding: 15px; /* Reduzir o padding */
+        padding-top: 155dvh; /* Reduzir o padding-top em telas menores */
+        font-size: 0.9em; /* Reduzir ligeiramente o tamanho da fonte */
+    }
+}
 h1 {
     color: #e44d26;
 }
