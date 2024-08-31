@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,14 +10,23 @@ body {
 }
 
 .letter {
-    max-width: 700px; /* Aumentar a largura máxima */
-    width: 90%; /* Ocupa 90% da largura da tela */
-    padding: 30px; /* Aumentar o padding */
+    max-width: 800px; /* Aumentar a largura máxima para desktops */
+    width: 80%; /* Ocupa 80% da largura da tela */
+    padding: 40px; /* Aumentar o padding para desktop */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
-    padding-top: 150px; /* Ajustar o padding-top */
+    padding-top: 100px; /* Ajustar o padding-top */
+}
+
+@media screen and (max-width: 1200px) {
+    .letter {
+        max-width: 700px; /* Reduzir a largura máxima para telas menores */
+        width: 85%; /* Aumentar a largura relativa */
+        padding: 30px; /* Ajustar o padding */
+        padding-top: 120px; /* Ajustar o padding-top para telas médias */
+    }
 }
 
 @media screen and (max-width: 600px) {
