@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
-    margin: 45px;
-    padding: 90px;
+    margin: 0;
+    padding: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
