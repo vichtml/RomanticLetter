@@ -1,43 +1,43 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
-    margin: 0;
-    padding: 95px;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-
-
 .letter {
-    max-width: 600px;
-    padding: 20px;
+    max-width: 700px; /* Aumentar a largura máxima */
+    width: 90%; /* Ocupa 90% da largura da tela */
+    padding: 30px; /* Aumentar o padding */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 150px; /* Ajustar o padding-top */
 }
 
 @media screen and (max-width: 600px) {
     .letter {
         width: 95%; /* Aumentar a largura em telas menores */
-        padding: 15px; /* Reduzir o padding */
-        padding-top: 90dvh; /* Reduzir o padding-top em telas menores */
-        font-size: 0.9em; /* Reduzir ligeiramente o tamanho da fonte */
+        padding: 20px; /* Ajustar o padding */
+        padding-top: 70dvh; /* Ajustar o padding-top em telas menores */
+        font-size: 1em; /* Manter o tamanho da fonte */
     }
 }
 
 @media screen and (max-width: 300px) {
     .letter {
         width: 95%; /* Aumentar a largura em telas menores */
-        padding: 15px; /* Reduzir o padding */
-        padding-top: 155dvh; /* Reduzir o padding-top em telas menores */
-        font-size: 0.9em; /* Reduzir ligeiramente o tamanho da fonte */
+        padding: 20px; /* Ajustar o padding */
+        padding-top: 130dvh; /* Ajustar o padding-top em telas menores */
+        font-size: 1em; /* Manter o tamanho da fonte */
     }
 }
+
 h1 {
     color: #e44d26;
 }
@@ -48,7 +48,7 @@ p {
     line-height: 1.6;
 }
 
-.heart a{
+.heart a {
     color: #e44d26;
     font-size: 72px;
     text-decoration: none;
